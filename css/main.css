@@ -1,35 +1,46 @@
-.main{
+.main {
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 
-.container1{
+.container1 {
     font-size: 13px;
     font-family: arial,sans-serif;
     margin: 7px 0 0 10px;
 }
 
-.container2{
+.container2 {
+    display: flex;
+    flex-direction: column;
     align-self: center;
     position: relative;
-    top: 100px;
+    padding: 25px;
+    top: 125px;
 }
 
-.container3{
+.container3 {
     display: flex;
     align-self: center;
     position: relative;
+    padding-top: 25px;
     top: 100px;
 }
 
-.search{
-
-}
-
-center {
+.searchbar {
+    height: 45px;
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #ddd;
+    padding: 0px 100px 0px 100px;
     position: relative;
-    top: 100px;
+    right: 100px;
+}
 
+center { 
+    position: relative;
+    padding: 15px;
+    top: 100px;
 }
 
 .google {
@@ -63,13 +74,43 @@ center {
 }
 
 .login {
-    background-color: #4285f4;
+    background-color: #2b7de9;
     color: white;
-    font-weight: bold;
-    border: 1px solid #4285f4;
+    border: 1px solid #2b7de9;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 9px 23px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: .25px;
+    line-height: 16px;
+    box-shadow: 0 1px 2px 0;
+
+}
+
+.footer {
+    padding-right: 20px;
+}
+
+footer {
+    display: block;
+    height: 40px;
+    background-color: whitesmoke;
     font-size: 13px;
-    border-radius: 2px;
-    padding: 10px 11px 10px 11px;
+    font-family: arial,sans-serif;
+    opacity: 0.75;
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#apps {
+    width: 15px;
+    height: auto;
 }
 
 ul {
