@@ -1,46 +1,38 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Google</title>
-        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="icon" type="image/png" href="icon.png"/>
     </head>
-    <body class="main">
-        <header><div class="container1">
-            <div class="nav">
-                <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Store</a></li>
-                    <li class="right"><button class="login">Sign in</button></li>
-                    <li class="right"><a href=""><img id="apps" src="apps.jpg"></a></li>
-                    <li class="right"><a href="">Images</a></li>
-                    <li class="right"><a href="">Gmail</a></li>
-                </ul>
-            </div>
-        </div>
-        </header>
-        <div class="container2">
-            <img src="logo.png" alt="Google Logo">
-        </div>
-            <div class="container3">
-                <div class="search">
-                    <input class="searchbar" type="text">
-                </div>
-                </div>
-                <center><button class="google">Google Search</button>
-                <button class="lucky">I'm Feeling Lucky</button></center>
+    <body>
+        <header>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li class="right"><button id="login">Sign in</button></li>
+                <li class="right"><a href=""><img id="apps" src="apps.jpg"></a></li>
+                <li class="right"><a href="">Images</a></li>
+                <li class="right"><a href="">Gmail</a></li>
 
+            </ul>
+        </header>
+        <div class="main">
+            <div class="logo"><img src="logo.png" alt="Google Logo"></div>
+            <div class="search"><input type="search" id="searchbar" name="searchbar" placeholder="Google Search or type a URL"></div>
+            <div class="searchicon"></div>
+            <div class="buttons"><button id="button">Google Search</button> <button id="button">I'm Feeling Lucky</button></div>
+        </div>
     </body>
     <footer>
-        <div class="footer">
-            <ul>
-                <li><a href="">Advertising</a></li>
-                <li><a href="">Business</a></li>
-                <li><a href="">How Search Works</a></li>
-                <li class="right" class="pad"><a href="">Settings</a></li>
-                <li class="right"><a href="">Terms</a></li>
-                <li class="right"><a href="">Privacy</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a id="bottomlink" href="">Advertising</a></li>
+            <li><a id="bottomlink" href="">Business</a></li>
+            <li><a id="bottomlink" href="">How Search Works</a></li>
+            <li class="right"><a id="bottomlink" href="">Settings</a></li>
+            <li class="right"><a id="bottomlink" href="">Terms</a></li>
+            <li class="right"><a id="bottomlink" href="">Privacy</a></li>
+        </ul>
     </footer>
 </html>
