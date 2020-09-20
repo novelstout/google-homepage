@@ -1,3 +1,6 @@
+/* Code finalized 9/18/20 */
+
+/* Start of code */
 body {
     height: 100%;
     padding: 0;
@@ -6,6 +9,7 @@ body {
     font-size: 13px;
 }
 
+/* Navigation Top and Bottom */
 ul {
     list-style-type: none;
     padding: 0;
@@ -44,6 +48,8 @@ footer {
     opacity: 1;
     font-size: 14px;
 }
+
+/* Main Div Styling */
 
 .main {
    width: 100%;
@@ -95,6 +101,8 @@ input:focus {
     outline: none;
 }
 
+/* Search Buttons */
+
 #button {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -115,6 +123,8 @@ input:focus {
     border: 1px solid #c6c6c6;
     color: #222;
 }
+
+/* Login and Apps Image in Nav */
 
 #login {
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
