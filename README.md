@@ -8,4 +8,4 @@ Notes:  For the most part, the project wasn't too hard to grasp. It's all about 
 
 If you'd like to see a working preview of this page, simply go to https://novelstout.github.io/google-homepage
 
-Code Finalized: 9/18/20
+Code Finalized: 9/20/20
