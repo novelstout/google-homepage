@@ -28,7 +28,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 54px;
+    height: 41px;
     width: 100%;
     background-color: whitesmoke;
 }
@@ -47,35 +47,27 @@ footer {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    position: fixed;
+    top: 200px;
 }
 
 .logo {
-    position: relative;
-    top: 250px;
-    padding: 5px;
+    padding: 15px;
 }
 
 
 .search {
-    position: relative;
-    top: 250px;
-    padding: 5px;
+    padding: 10px;
 
-}
-
-.buttons {
-    position: relative;
-    top: 250px;
-    padding: 5px;
 }
 
 .searchicon {
     position: relative;
-    top: 212px;
+    bottom: 43px;
     right: 265px;
     opacity: 0.45;
     background-color: transparent;
-    background-image: url(glass.png);
+    background-image: url(search.png);
     background-size: 20px;
     background-repeat: no-repeat;
     width: 20px;
